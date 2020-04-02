@@ -1,0 +1,44 @@
+/* Your app custom styles here */
+:root {
+    --main-bg-color: #4607da; 
+}
+
+.page-content {
+    background-color: white;
+    padding: 10vh 10px;
+}
+
+.title {
+    display : block;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.navbar-inner {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.input {
+    border: 2px solid blue !important;
+    margin : auto !important;
+    margin-top : 25px !important;
+}
+
+.block-title {
+    text-align: center;
+}
+
+.red-button {
+    background-color: red;
+}
+
+
+.hidden {
+    display : none;
+}
+
+.visible {
+    display : block;
+}
