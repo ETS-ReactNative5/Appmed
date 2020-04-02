@@ -18,14 +18,12 @@ or
 ```
 expo start
 ```
-A window will open, click on "run on IOS Simulator" or "run on Android Simulator" regardind the option you chosed. 
+A window will open, click on "run on IOS Simulator" or "run on Android Studio Emulator" regardind the option you picked (installation documentation at the bottom of the page). 
 
 
 ## Documentation & Resources
 
-* [Framework7 Core Documentation](https://framework7.io/docs/)
-
-
-
-* [Framework7 Icons Reference](https://framework7.io/icons/)
-* [Community Forum](https://forum.framework7.io)
+* [React Native documentation](https://reactnative.dev/docs/getting-started)
+* [Expo installation](https://docs.expo.io/versions/latest/get-started/installation/)
+* [IOS Simulator](https://docs.expo.io/versions/v36.0.0/workflow/ios-simulator/)
+* [Android Studio Emulator] (https://docs.expo.io/versions/v36.0.0/workflow/android-studio-emulator/)
