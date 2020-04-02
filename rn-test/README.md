@@ -26,4 +26,4 @@ A window will open, click on "run on IOS Simulator" or "run on Android Studio Em
 * [React Native documentation](https://reactnative.dev/docs/getting-started)
 * [Expo installation](https://docs.expo.io/versions/latest/get-started/installation/)
 * [IOS Simulator](https://docs.expo.io/versions/v36.0.0/workflow/ios-simulator/)
-* [Android Studio Emulator] (https://docs.expo.io/versions/v36.0.0/workflow/android-studio-emulator/)
+* [Android Studio Emulator](https://docs.expo.io/versions/v36.0.0/workflow/android-studio-emulator/)
