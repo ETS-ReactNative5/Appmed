@@ -8,7 +8,7 @@ Execute this command lines:
 ```
 npm install -g expo-cli
 ```
-2. Install Xcode or Android Simulator
+2. Install Xcode to access the IOS Simulator or Android Studio Emulator
 
 3. Go in the rn-test folder and execute the following line: 
 ```
