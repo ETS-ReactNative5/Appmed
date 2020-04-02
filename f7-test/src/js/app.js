@@ -12,7 +12,7 @@ import '../css/app.css';
 import routes from './routes.js';
 
 // Import main app component
-import App from '../app-test.f7.html';
+import App from '../app.f7.html';
 
 var $$ = Dom7;
 

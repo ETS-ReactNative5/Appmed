@@ -1,5 +1,5 @@
 
-import HomePage from '../pages/newhome.f7.html';
+import HomePage from '../pages/home.f7.html';
 import AboutPage from '../pages/about.f7.html';
 import FormPage from '../pages/form.f7.html';
 
