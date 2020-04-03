@@ -1,8 +1,8 @@
-const c = console.log;
+
 var name = '';
 var hasname = false;
 
-const confirmName = (e) => 
+const confirmName = () => 
 {
     $('[data-name]').text($('[input-id="name"] input')[0].value)
     $('[data-hasName]').addClass('visible')
