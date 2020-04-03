@@ -15,7 +15,7 @@ const NameContainer = props => {
             <Text style={styles.normalText}>Your name is</Text>
             <Text style={[styles.normalText, styles.normalBold]}>{username}</Text>
             <View style={styles.deleteButton}>
-                <Button color="#fff" onPress={props.onDeleteName.bind(this, TouchableWithoutFeedbackBase)} title="delete"/>
+                <Button color="red" onPress={props.onDeleteName.bind(this, TouchableWithoutFeedbackBase)} title="Delete"/>
             </View>
             </View>
           );
@@ -37,10 +37,8 @@ const styles = StyleSheet.create({
       },
       deleteButton: {
           marginTop: 20,
-          backgroundColor: '#ff0000',
           paddingVertical: 10,
           paddingHorizontal: 15,
-          borderRadius: 5
       }
 
 });

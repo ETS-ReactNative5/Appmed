@@ -52,5 +52,4 @@ const styles = StyleSheet.create({
   inputContainer: {
     height: 50
   },
-
 });

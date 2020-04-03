@@ -25,15 +25,15 @@ const NameInput = props => {
       <View style={styles.buttonsContainer}>
         <View style={styles.buttonDiv}>
           <Button
-            color="#fff"
+            color="blue"
             style={styles.button}
             onPress={nameInputReset}
-            title="reset"
+            title="Reset"
           />
         </View>
         <View style={styles.buttonDiv}>
           <Button
-            color="#fff"
+            color='blue'
             style={styles.button}
             onPress={props.onAddName.bind(this, enteredName)}
             title="Confirm"
@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
     borderColor: "blue",
     borderWidth: 1,
     width: "70%",
-    paddingVertical: 5
+    paddingVertical: 5,
+    height: 30,
   },
   subHeaderTitle: {
     color: "#999999",
@@ -72,8 +73,9 @@ const styles = StyleSheet.create({
   buttonDiv: {
     paddingVertical: 10,
     paddingHorizontal: 15,
-    backgroundColor: 'blue',
-    borderRadius: 5,
+  }, 
+  button: {
+    color: 'black'
   }
 });
 
