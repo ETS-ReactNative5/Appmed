@@ -73,9 +73,6 @@ const styles = StyleSheet.create({
   buttonDiv: {
     paddingVertical: 10,
     paddingHorizontal: 15,
-  }, 
-  button: {
-    color: 'black'
   }
 });
 
