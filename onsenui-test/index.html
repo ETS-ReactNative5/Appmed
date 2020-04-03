@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/onsenui/css/onsen-css-components.min.css"
+    />
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <ons-page id="page1">
+      <div class="toolbar toolbar--material bg-blue">
+        <div class="toolbar__center toolbar--material__center text white">
+          Onsen UI Application Test
+        </div>
+      </div>
+      <div>
+        <ons-row class="mt-20 mb-10">
+          <ons-col>
+            <h1 class="main-title">
+              Welcome in this Onsen UI test application !
+            </h1>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col class="flex-center">
+            <p class="subHeading-text">Please enter your name</p>
+            <ons-input
+              input-id="name"
+              type="text"
+              placeholder="Write your name here"
+              class="input-field"
+            >
+            </ons-input>
+          </ons-col>
+        </ons-row>
+        <div class="mt-20 mb-20">
+          <ons-row class="flex-row space-between">
+            <ons-button onclick="resetName()">Reset</ons-button>
+            <ons-button onclick="confirmName()">Confirm</ons-button>
+          </ons-row>
+        </div>
+      </div>
+      <div class="mt-20 hidden" data-hasName="false">
+        <ons-row>
+          <ons-col class="flex-center">
+            <p class="">Your name is</p>
+            <p data-name=""></p>
+          </ons-col>
+        </ons-row>
+        <div class="mt-20 mb-20">
+          <ons-row class="flex-center">
+            <ons-button class="button red" onclick="deleteName()">Delete</ons-button>
+          </ons-row>
+        </div>
+      </div>
+    </ons-page>
+    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
