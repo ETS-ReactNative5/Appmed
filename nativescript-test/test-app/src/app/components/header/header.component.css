@@ -1,0 +1,56 @@
+.input-field {
+  border-color: blue;
+  border-width: 2px;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+  width: 30%;
+}
+
+.red-button {
+  background-color: red;
+  color: white;
+  width: 40%;
+}
+
+.header {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  height: 7%;
+  padding-left: 6%;
+}
+
+.title-container {
+  height: 25%;
+  vertical-alignment: center;
+  horizontal-alignment: center;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 26;
+  font-weight: bold;
+  width: 80%;
+}
+
+.name-container {
+  height: 25%;
+  margin-top: 10%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}

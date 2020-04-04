@@ -1,0 +1,51 @@
+<StackLayout>
+  <StackLayout verticalAlignment="center" class="header">
+    <Label text="NativeScript Test App"></Label>
+  </StackLayout>
+  <StackLayout>
+    <StackLayout class="title-container">
+      <Label
+        class="title"
+        text="Welcome in this NativeScript Test App!"
+        textWrap="true"
+      ></Label>
+    </StackLayout>
+    <TextField
+      class="input-field"
+      hint="Write your name here"
+      [(ngModel)]="enteredText"
+    ></TextField>
+    <StackLayout
+      [!text]="name"
+      orientation="horizontal"
+      horizontalAlignment="center"
+      class="button-container"
+    >
+      <Button
+        class="blue-button button"
+        (tap)="resetName()"
+        text="Reset"
+      ></Button>
+      <Button
+        class="blue-button button"
+        (tap)="confirmName()"
+        text="Confirm"
+      ></Button>
+    </StackLayout>
+    <StackLayout
+      *ngIf="name"
+      orientation="vertical"
+      horizontalAlignment="center"
+      verticalAlignment="center"
+      class="name-container"
+    >
+      <Label class="text-center" text="Your name is"></Label>
+      <Label class="text-center text-bold" [text]="name"></Label>
+      <Button
+        class="red-button button"
+        (tap)="deleteName()"
+        text="Delete"
+      ></Button>
+    </StackLayout>
+  </StackLayout>
+</StackLayout>
