@@ -1,6 +1,6 @@
 # NativeScript Test app
 
-## Steps to run the app
+## How to run the app
 
 Execute this command lines:
 
