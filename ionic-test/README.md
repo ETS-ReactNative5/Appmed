@@ -2,7 +2,7 @@
 
 ## How to run the app
 
-Execute these command lines:
+Follow these steps:
 
 1. Install node.js 
 
@@ -16,7 +16,7 @@ npm install -g @ionic/cli
 ionic serve
 ```
 
-A new window opens in your browser. The application will then be running there.
+A new window opens in your browser. The application will run there.
 
 ## Documentation & Resources
 
