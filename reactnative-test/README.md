@@ -2,15 +2,17 @@
 
 ## Run the app with Expo
 
-Execute this command lines:
+Follow these steps:
 
-1. Install expo cli: 
+1. Install Node.js
+
+2. Install expo cli: 
 ```
 npm install -g expo-cli
 ```
-2. Install Xcode to access the IOS Simulator or Android Studio Emulator
+3. Install Xcode to access the IOS Simulator or Android Studio Emulator
 
-3. Go in the reactnative-test folder and execute the following line: 
+4. Go in the reactnative-test folder and execute the following line: 
 ```
 npm run
 ```
@@ -25,6 +27,7 @@ All the steps are listed below.
 
 ## Documentation & Resources
 
+* [Node.js](https://nodejs.org/en/)
 * [React Native documentation](https://reactnative.dev/docs/getting-started)
 * [Expo installation](https://docs.expo.io/versions/latest/get-started/installation/)
 * [IOS Simulator](https://docs.expo.io/versions/v36.0.0/workflow/ios-simulator/)
