@@ -2,7 +2,7 @@
 
 ## How to run the app
 
-Execute this command lines:
+Follow these steps:
 
 1. Install node.js 
 
