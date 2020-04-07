@@ -15,6 +15,6 @@ All the details are listed below.
 
 ## Documentation & Resources
 
-* [Node.js] ()
+* [Node.js] (https://nodejs.org/en/)
 * [OnsenUI documentation](https://onsen.io/v2/guide/)
 * [OnsenUI installation](https://onsen.io/v2/guide/installation.html#installation)
