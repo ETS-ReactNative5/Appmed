@@ -2,8 +2,11 @@
 
 ## Download the app and install dependancies
 
-Execute this command line:
+Follow these steps:
 
+1. Install Node.js
+
+2. Install Onsen UI
 ```
 npm install onsenui
 ```
@@ -12,5 +15,6 @@ All the details are listed below.
 
 ## Documentation & Resources
 
+* [Node.js] ()
 * [OnsenUI documentation](https://onsen.io/v2/guide/)
 * [OnsenUI installation](https://onsen.io/v2/guide/installation.html#installation)
