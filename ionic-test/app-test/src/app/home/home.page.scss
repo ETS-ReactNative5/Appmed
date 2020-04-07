@@ -6,6 +6,50 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  .title-container {
+    wrap: true;
+    font-size: 26px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .input-field {
+    width: 60%;
+    border: 2px solid blue;
+    margin : auto;
+
+    
+      input {
+        width: 100%;
+      }
+    
+  }
+
+  .buttons-container {
+    margin : auto;
+    margin-top : 20px;
+    width : 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .name-container {
+    margin : auto;
+    margin-top : 40px;
+
+    .name-title {
+      margin-bottom : 20px;
+      font-size : 24px;
+      font-weight: bold;
+    }
+
+    ion-button {
+      margin-top : 20px
+    }
+  }
 }
 
 #container strong {
@@ -29,3 +73,15 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.blue-toolbar {
+  background-color: blue;
+  color: white;
+
+  ion-title {
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 26px;
+  }
+}
+

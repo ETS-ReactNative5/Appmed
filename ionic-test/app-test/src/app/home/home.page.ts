@@ -7,6 +7,24 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  name = '';
+  enteredText = '';
+  
   constructor() {}
+
+  confirmName() {
+    console.log(this.enteredText)
+    if(!this.enteredText) return;
+    this.name = this.enteredText;
+  }
+
+  resetName() {
+    this.enteredText = ''
+  }
+
+  deleteName() {
+    this.enteredText = ''
+    this.name = ''
+  }
 
 }
