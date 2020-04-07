@@ -12,17 +12,26 @@
     <div class="input-container">
       <div></div>
       <div>
-        <ion-input type="text" placeholder="Write your name here" class="input-field" [(ngModel)]="enteredText"></ion-input>
+        <ion-input
+          type="text"
+          placeholder="Write your name here"
+          class="input-field"
+          [(ngModel)]="enteredText"
+        ></ion-input>
         <div class="buttons-container">
           <ion-button class="button" (click)="resetName()">Reset</ion-button>
-          <ion-button class="button" (click)="confirmName()">Confirm</ion-button>
+          <ion-button class="button" (click)="confirmName()"
+            >Confirm</ion-button
+          >
         </div>
       </div>
     </div>
     <div class="name-container" *ngIf="name">
       <p class="name-title">Your name is</p>
       <p>{{name}}</p>
-      <ion-button class="button" (click)="deleteName()" color="danger">Delete</ion-button>
+      <ion-button class="button" (click)="deleteName()" color="danger"
+        >Delete</ion-button
+      >
     </div>
   </div>
 </ion-content>

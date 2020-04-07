@@ -18,36 +18,34 @@
   .input-field {
     width: 60%;
     border: 2px solid blue;
-    margin : auto;
+    margin: auto;
 
-    
-      input {
-        width: 100%;
-      }
-    
+    input {
+      width: 100%;
+    }
   }
 
   .buttons-container {
-    margin : auto;
-    margin-top : 20px;
-    width : 50%;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .name-container {
-    margin : auto;
-    margin-top : 40px;
+    margin: auto;
+    margin-top: 40px;
 
     .name-title {
-      margin-bottom : 20px;
-      font-size : 24px;
+      margin-bottom: 20px;
+      font-size: 24px;
       font-weight: bold;
     }
 
     ion-button {
-      margin-top : 20px
+      margin-top: 20px;
     }
   }
 }
@@ -84,4 +82,3 @@ ion-content ion-toolbar {
     font-size: 26px;
   }
 }
-
